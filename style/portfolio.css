@@ -101,13 +101,18 @@ main{
 .about-info-container{
     display: flex;
     justify-content: space-around;
+    font-weight: lighter;
 }
 .about-info{
     text-align: center;
 }
-.info-description{
-    font-weight: 700px;
+#what-i-do-des{
+    padding: 30px 150px;
 }
-.about-info-container>h4{
-    font-weight:400px;
+.section-title>img{
+    height: 44px;
+    width: 44px;
+}
+.section-title{
+    justify-content: flex;
 }
